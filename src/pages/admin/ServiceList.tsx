@@ -9,9 +9,10 @@ const ServiceList = () => {
   if (isLoading) {
     return <p>Loading..........</p>;
   }
-if(isError){
- return <p>something wrong </p>
-}
+  if(isError){
+  return <p>something wrong </p>
+  }
+
   return (
     <div>
       {data?.map((item, i) => (
