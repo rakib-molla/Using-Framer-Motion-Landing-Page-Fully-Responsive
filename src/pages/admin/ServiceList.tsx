@@ -10,7 +10,7 @@ const ServiceList = () => {
     return <p>Loading..........</p>;
   }
 if(isError){
-  throw new Error('something wrong')
+ return <p>something wrong </p>
 }
   return (
     <div>
